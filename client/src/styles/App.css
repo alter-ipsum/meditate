@@ -1,0 +1,65 @@
+/* Blocks */
+
+html {
+  font-size: 12px;
+
+  --primary-color: #9EE493;
+  --secondary-color: #DAF7DC;
+}
+
+html, body, div[id="root"] {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+i {
+  font-size: 3vw;
+}
+
+/* Elements */
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Meditator button {
+  height: 35vh; width: 35vw; 
+  outline: none;
+  border-radius: 50%;
+  font-size: 3vw;
+}
+
+/* Modifiers */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.btn {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.meditate {
+  animation-name: meditate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+} 
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+/* Animation */
+@keyframes meditate {
+  33% { transform: scale(1, 1); }
+  66% { transform: scale(1.25, 1.25); }
+  100% { transform: scale(1, 1); }
+}
+

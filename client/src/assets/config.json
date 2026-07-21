@@ -1,0 +1,8 @@
+{
+  "themes": [
+    { "name": "water", "color": "#004197", "soundEffect": "running-water.mp3" },
+    { "name": "wind", "color": "#02894B", "soundEffect": "wind-in-trees-chimes.mp3" },
+    { "name": "fire", "color": "#df265e", "soundEffect": "fireplace.mp3" },
+    { "name": "earth", "color": "#a56729", "soundEffect": "tibetan-bowl.mp3" }
+  ]
+}
